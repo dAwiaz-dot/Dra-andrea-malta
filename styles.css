@@ -162,9 +162,9 @@ img {
   background:
     linear-gradient(95deg, rgba(31, 36, 33, 0.92) 0%, rgba(31, 36, 33, 0.68) 44%, rgba(31, 36, 33, 0.26) 100%),
     linear-gradient(180deg, rgba(31, 36, 33, 0.08) 0%, rgba(31, 36, 33, 0.48) 100%),
-    url("assets/andrea-hero-enhanced.jpg");
-  background-size: cover, cover, 120% auto;
-  background-position: center, center, 0% 43%;
+    url("assets/andrea-hero-desktop.png");
+  background-size: cover, cover, 115% auto;
+  background-position: center, center, 0% 48%;
   background-repeat: no-repeat;
 }
 
@@ -1110,10 +1110,10 @@ img {
     min-height: 86svh;
     padding: 8.8rem 1rem 4rem;
     background:
-      linear-gradient(180deg, rgba(31, 36, 33, 0.32) 0%, rgba(31, 36, 33, 0.48) 38%, rgba(31, 36, 33, 0.94) 100%),
-      url("assets/andrea-hero-enhanced.jpg");
+      linear-gradient(180deg, rgba(31, 36, 33, 0.28) 0%, rgba(31, 36, 33, 0.36) 42%, rgba(31, 36, 33, 0.86) 100%),
+      url("assets/andrea-hero-mobile.png");
     background-size: cover;
-    background-position: center 34%;
+    background-position: 20% 50%;
   }
 
   .hero h1 {
