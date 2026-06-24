@@ -1084,6 +1084,7 @@ img {
     width: calc(100% - 1rem);
     margin-top: 0.5rem;
     padding: 0.6rem;
+    border-radius: 18px;
   }
 
   .brand img {
