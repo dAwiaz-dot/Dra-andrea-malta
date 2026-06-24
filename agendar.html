@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agendar avaliação | Andréa Malta</title>
+    <meta
+      name="description"
+      content="Envie uma mensagem personalizada para agendar atendimento nutricional com Andréa Malta em Campinas ou online."
+    >
+    <meta name="theme-color" content="#5e7667">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=hero-shift-120">
+  </head>
+  <body class="schedule-page">
+    <header class="site-header is-scrolled">
+      <a class="brand" href="index.html#inicio" aria-label="Andréa Malta, início">
+        <img src="assets/logo-andrea-malta.png" alt="" aria-hidden="true">
+        <span class="brand-copy">
+          <span class="brand-name">Andréa Malta</span>
+          <small>Nutricionista</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="index.html#sobre">Sobre</a>
+        <a href="index.html#servicos">Serviços</a>
+        <a href="index.html#focos">Focos</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+
+      <a class="header-cta" href="index.html#contato">Contato</a>
+    </header>
+
+    <main>
+      <section class="schedule-shell" aria-labelledby="schedule-title">
+        <div class="schedule-intro">
+          <p class="eyebrow">Agendamento</p>
+          <h1 id="schedule-title">Conte rapidinho o que você precisa.</h1>
+          <p>
+            A Andréa recebe uma mensagem organizada no WhatsApp para responder com mais contexto e disponibilidade.
+          </p>
+          <div class="schedule-image" aria-label="Consultório Andréa Malta">
+            <span>Clínica Andréa Malta</span>
+            <strong>Presencial em Campinas e online</strong>
+          </div>
+        </div>
+
+        <form class="schedule-form" data-whatsapp-form>
+          <label>
+            Nome
+            <input name="nome" type="text" autocomplete="name" required placeholder="Seu nome">
+          </label>
+
+          <label>
+            Motivo do contato
+            <select name="motivo" required>
+              <option value="">Selecione uma opção</option>
+              <option>Quero agendar primeira consulta</option>
+              <option>Quero agendar retorno</option>
+              <option>Tenho interesse em saúde da mulher</option>
+              <option>Tenho interesse em emagrecimento ou obesidade</option>
+              <option>Tenho interesse em diabetes ou hipertensão</option>
+              <option>Tenho interesse em SOP ou endometriose</option>
+              <option>Quero saber sobre bioimpedância</option>
+              <option>Quero tirar uma dúvida antes de agendar</option>
+            </select>
+          </label>
+
+          <fieldset>
+            <legend>Preferência de atendimento</legend>
+            <label>
+              <input type="radio" name="modalidade" value="presencial em Campinas" checked>
+              Presencial
+            </label>
+            <label>
+              <input type="radio" name="modalidade" value="online">
+              Online
+            </label>
+            <label>
+              <input type="radio" name="modalidade" value="presencial ou online">
+              Tanto faz
+            </label>
+          </fieldset>
+
+          <label>
+            Melhor período
+            <select name="periodo">
+              <option>Flexível</option>
+              <option>Manhã</option>
+              <option>Tarde</option>
+              <option>Noite</option>
+            </select>
+          </label>
+
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="4" placeholder="Ex.: tenho SOP, quero melhorar minha rotina alimentar, prefiro atendimento online..."></textarea>
+          </label>
+
+          <button class="btn btn-primary" type="submit">Continuar pelo WhatsApp</button>
+          <p class="schedule-feedback" data-schedule-feedback aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="assets/logo-andrea-malta.png" alt="" aria-hidden="true">
+        <div>
+          <strong>Andréa Malta</strong>
+          <span>Andréa de Oliveira Malta Faria | Nutricionista CRN-3 91268/SP</span>
+        </div>
+      </div>
+      <span>© <span data-year></span> Andréa Malta. Todos os direitos reservados. <a href="privacidade.html">Privacidade</a></span>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
