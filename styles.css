@@ -64,6 +64,7 @@ img {
   padding: 0.7rem 0.85rem;
   color: var(--white);
   border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 18px;
   background: rgba(31, 36, 33, 0.2);
   backdrop-filter: blur(18px);
   transition: background 180ms ease, color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
@@ -1084,7 +1085,6 @@ img {
     width: calc(100% - 1rem);
     margin-top: 0.5rem;
     padding: 0.6rem;
-    border-radius: 18px;
   }
 
   .brand img {
